@@ -1,0 +1,28 @@
+.Home .body h2{
+padding-top: 20px;
+text-align: center;
+}
+
+/* Home.css */
+
+.HomeWrapper {
+  background-color: #f0f4f8; /* Your preferred background color */
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* Make sure Home content doesn’t affect the whole screen width */
+.Home {
+  padding: 20px 0;
+}
+
+/* Optional: Style the inner container */
+.container.body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white; /* Content box color */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}

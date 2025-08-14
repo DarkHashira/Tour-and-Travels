@@ -1,0 +1,26 @@
+.About .image{
+  margin-top: 30px;
+  display: block;
+  float: left;
+  align-content: center;
+}
+.About .text {
+  /* display: inline-block; */
+  display: block;
+  float: left;
+  margin-top: 30px;
+  text-decoration: solid;
+  background-color: #EEE;
+  height: auto;
+  width: 700px;
+  padding: 20px;
+  align-content: center;
+}
+.About .text h3{
+  color: #5356FF;
+  font-weight: bold ;
+  text-align: left;
+}
+.About .text p{
+  text-align: left;
+}

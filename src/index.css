@@ -1,0 +1,12 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  background: #FDFBEE
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}

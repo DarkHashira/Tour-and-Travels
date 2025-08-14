@@ -1,0 +1,19 @@
+.cards{
+  height: auto ;
+  width: 100%;
+}
+.cards .card1{
+  padding: 10px;
+  background-color: #EEEEEE;
+  transition: background-color 1s ease;
+  text-align: center;
+  display: inline;
+  width: 100%;
+}
+.cards .card1:hover{
+  background-color: #31363F;
+}
+.cards .card1 a{
+padding: 10px;
+text-align: center;
+}

@@ -1,0 +1,52 @@
+.booking-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.booking-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.booking-form h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.booking-form input {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.confirm {
+  background-color: #008080;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+.cancel {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+}

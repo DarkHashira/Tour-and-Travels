@@ -1,0 +1,68 @@
+.Packages .card1{
+  height: 13rem;
+  background-color: #fff;
+  width: 100%;
+  margin: 1rem auto;
+  display: block;
+  float: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition: all 0.5s ease;
+  border: 2px solid black;
+}
+.Packages .card1:hover{
+  background-color: #F5EEDD;
+  transform: scale(1.02);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border: 2px solid #FF6B6B;
+}
+
+.Packages .card1 .image img{
+  border-radius: 5px;
+  display: block;
+  float: left;
+  height: 11.8rem;
+  width: 15rem;
+  margin: 0.5rem 0.3rem;
+}
+.Packages .card1 .text{
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.Packages .card1 .text h4{
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+/* .Packages .card1 .text h4:hover{
+text-decoration: underline;
+} */
+.Packages .card1 .text .icons{
+display: block;
+}
+.Packages .card1 .text .icons i{
+  margin-right: 10px;
+}
+.Packages .card1 button{
+  margin-top: 20px;
+  margin-left: -3px;
+}
+
+@media(min-width: 990px) and (max-width: 1200px){
+  .Packages .card1 .image img{
+    height: 11.5rem;
+    width: 15rem;
+  }
+  .Packages .card1 .text h4{
+    font-size: 1rem;
+    text-align: left;
+  }
+}
+@media(max-width:768px){
+  .Packages .card1 .text h4{
+    font-size: 1.2rem;
+    text-align: left;
+  }
+}

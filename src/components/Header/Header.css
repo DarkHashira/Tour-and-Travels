@@ -1,0 +1,70 @@
+/* Updated Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  background-color: #313131;
+  padding: 0 15px;
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+.header .mobile,
+.header .email {
+  display: flex;
+  align-items: center;
+  min-width: max-content; /* Prevent text collapse */
+  padding: 0 10px;
+}
+
+.header .mobile {
+  border-right: 2px solid #EEE;
+}
+
+.header .mobile a, 
+.header .email a {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap; /* Prevent text wrapping */
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between icon and text */
+}
+
+.header .email {
+  border-right: 2px solid #EEE;
+}
+
+.header .social {
+  display: flex;
+  margin-left: auto; /* Push to right */
+}
+
+.header .social .social-media {
+  display: flex;
+  gap: 10px; /* Space between icons */
+}
+
+.fab{
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header {
+    padding: 0 10px;
+  }
+  
+  .header .mobile a span,
+  .header .email a span {
+    display: none; /* Hide text on small screens */
+  }
+  
+  .header .mobile a::after,
+  .header .email a::after {
+    content: attr(data-short);
+    display: inline; /* Show short version */
+  }
+}
+
+

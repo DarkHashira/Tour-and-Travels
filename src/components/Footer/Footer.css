@@ -1,0 +1,25 @@
+.Footer{
+  background-color: #222831;
+  height: auto;
+  width: 100%;
+}
+.Footer .copyright{
+  color: #EEE;
+}
+.Footer .row{
+  color: #EEE;
+  height: auto;
+  padding-top : 40px
+   
+
+}
+.Footer .row h5{
+  color: #B5C0D0;
+}
+.Footer .row .contact .social a{
+  color: #fff;
+  margin-right: 10px;
+}
+.Footer .copyright{
+  padding-bottom: 30px ;
+}

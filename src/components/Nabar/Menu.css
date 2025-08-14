@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 700px;
+    overflow-x: hidden;  
+}
+
+.menu {
+    justify-content: space-between;
+    width: 100%;
+    background-color: #34A0A4;
+    display: flex;
+    align-items: center;
+    padding: 10px 3%; /* Increased padding for better spacing */
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+ul {
+    flex: 1;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+nav{
+  margin: 0 10%;
+  width: fit-content;
+}
+
+.nav {
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    padding: 8px 0px;
+    transition: color 0.3s ease;
+}
+
+.nav::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #F9DC5C;
+    transition: width 0.3s ease;
+}
+
+.nav:hover::after,
+.nav.active::after {
+    width: 100%;
+}
+
+.nav:hover,
+.nav.active {
+    color: #F9DC5C;
+    text-decoration: none;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-left: 5px; /* Align search box to the right */
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.search-box i {
+    color: #FF6B6B;
+    font-size: 28px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #FF6B6B;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none; 
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-btn:hover {
+    background-color: #FF4C4C;
+    transform: scale(1.05);
+    color: white;
+    text-decoration: none; 
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none; /* Hidden by default on larger screens */
+    flex-direction: column;
+    cursor: pointer;
+    padding: 0 20px; /* Adjust padding for better touch area */
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* Show hamburger on mobile */
+    }
+
+    nav {
+        display: none; /* Hide nav by default */
+        position: absolute;
+        top: 16rem; /* Adjust based on your menu height */
+        left: 0;
+        right: 0;
+        background-color: #34A0A4;
+        z-index: 1000;
+        width: 100%; /* Full width on mobile */
+    }
+
+    nav.open {
+        display: block;
+        width: auto; /* Show nav when open */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex; /* Align items to the left */
+        padding: 10px; /* Add some padding */
+    }
+
+    nav ul li {
+        margin: 0px 0; /* Add margin between items */
+    }
+
+    .search-box {
+        display: flex; /* Show search box on mobile */
+        margin: 10px; /* Add margin for spacing */
+    }
+
+    .login {
+        margin-left: auto; /* Align login button to the right */
+    }
+}/* Medium screen adjustments ONLY (771px-1265px) */
+@media (min-width: 771px) and (max-width: 1265px) {
+  .menu {
+    padding: 12px 2%; /* Only adjust padding */
+  }
+  
+  .logo {
+    width: 130px; /* Slightly smaller logo only for medium */
+  }
+  
+  nav ul {
+    gap: 25px; /* Reduced gap only for medium */
+  }
+  
+  .search-box {
+    padding: 4px 10px;
+    
+    input {
+      width: 120px; /* Narrower search only for medium */
+      font-size: 15px;
+    }
+    
+    i {
+      font-size: 24px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 0.75 rem;
+  right: 0.2rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+
+.hamburger span {
+  width: 100%;
+  height: 0.4rem;
+  background-color: #fff;
+  border-radius: 0.2rem;;
+}
+
+@media(max-width: 480px)
+{
+  .hamburger {
+    display: flex;
+  }
+  nav  {
+    flex-direction: column;
+    align-items: start;
+  }
+  nav ul{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  nav ul.open{
+    display: flex;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li a{
+    margin:0.2 rem 0.5 rem;
+  }
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.menu nav ul li{
+  display: inline-block;
+}
+.menu nav ul li .nav{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 55px;
+  transition: background-color 0.6s ease;
+}
+.menu nav ul li .nav:hover{
+  background-color: white;
+  color: #FF204E;
+}
+.menu search-box{
+  display: inline-block;
+}*/

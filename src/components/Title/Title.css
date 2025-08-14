@@ -1,0 +1,46 @@
+.title{
+  height: 130px;
+  width: 100%;
+  background-color: #FAF9F6;
+}
+.title .logo{
+  height: 110px;
+  width: 30%;
+  float: left;
+}
+.title .logo img{
+  display: block;
+  margin: auto;
+  margin-top: 8px;
+  padding-bottom: 8px;
+}
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/public/Font/myfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.title .org_name{
+  height: 110px;
+  width: 70%;
+  float: left;
+}
+.title .org_name h1{
+  text-align: center;
+  font-family : MyCustomFont;
+  margin-top: 2px;
+}
+.title .org_name h2{
+  text-align: center;
+  font-family: MyCustomFont;
+  margin: -7px;
+}
+.title .org_name span{
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 2px;
+  font-size: 15px;
+}
