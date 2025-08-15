@@ -1,10 +1,10 @@
 import React from "react";
 import './Slider.css'; // Assuming you have a CSS file for styling
 
-const slider = 'Images/hotel.jpg';
-const slider1 = 'Images/sea.jpg';
-const slider2 = 'Images/mountain.jpg';
-const slider3 = 'Images/sunny.jpg';
+const slider = 'images/hotel.jpg';
+const slider1 = 'images/sea.jpg';
+const slider2 = 'images/mountain.jpg';
+const slider3 = 'images/sunny.jpg';
 
 const Slider = () => {
     return (

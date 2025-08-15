@@ -5,7 +5,7 @@ import Title from "../Title/Title";
 import Footer from "../Footer/Footer";
 import './About.css';
 
-const Banner = '/Images/SARASH.png'
+const Banner = '/images/SARASH.png'
 
 const About = () =>{
     return(

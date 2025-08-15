@@ -1,6 +1,6 @@
 import React from "react";
 import './Title.css'; // Assuming you have a CSS file for styling
-const img = 'Images/new.png';
+const img = 'images/new.png';
 const Title = () =>{
     return(
         <>
