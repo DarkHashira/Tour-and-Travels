@@ -7,14 +7,14 @@ import Title from "../Title/Title";
 import './Gallery.css';
 
 const images = [
-  "/images/gallery/1.jpg", "/images/gallery/2.jpg", "/images/gallery/3.jpg", "/images/gallery/4.jpg",
-  "/images/gallery/5.jpg", "/images/gallery/6.jpg", "/images/gallery/7.jpg", "/images/gallery/8.jpg",
-  "/images/gallery/9.jpg", "/images/gallery/10.jpg", "/images/gallery/11.jpg", "/images/gallery/12.jpg",
-  "/images/gallery/13.jpg", "/images/gallery/14.jpg", "/images/gallery/15.jpg", "/images/gallery/16.jpg",
-  "/images/gallery/17.jpg", "/images/gallery/18.jpg", "/images/gallery/19.jpg", "/images/gallery/20.jpg",
-  "/images/gallery/21.jpg", "/images/gallery/22.jpg", "/images/gallery/23.jpg", "/images/gallery/24.jpg",
-  "/images/gallery/25.jpg", "/images/gallery/26.jpg", "/images/gallery/27.jpg", "/images/gallery/28.jpg",
-  "/images/gallery/29.jpg", "/images/gallery/30.jpg",
+  process.env.PUBLIC_URL + "/images/gallery/1.jpg", process.env.PUBLIC_URL + "/images/gallery/2.jpg", process.env.PUBLIC_URL + "/images/gallery/3.jpg", process.env.PUBLIC_URL + "/images/gallery/4.jpg",
+  process.env.PUBLIC_URL + "/images/gallery/5.jpg", process.env.PUBLIC_URL + "/images/gallery/6.jpg", process.env.PUBLIC_URL + "/images/gallery/7.jpg", process.env.PUBLIC_URL + "/images/gallery/8.jpg",
+  process.env.PUBLIC_URL + "/images/gallery/9.jpg", process.env.PUBLIC_URL + "/images/gallery/10.jpg", process.env.PUBLIC_URL + "/images/gallery/11.jpg", process.env.PUBLIC_URL + "/images/gallery/12.jpg",
+  process.env.PUBLIC_URL + "/images/gallery/13.jpg", process.env.PUBLIC_URL + "/images/gallery/14.jpg", process.env.PUBLIC_URL + "/images/gallery/15.jpg", process.env.PUBLIC_URL + "/images/gallery/16.jpg",
+  process.env.PUBLIC_URL + "/images/gallery/17.jpg", process.env.PUBLIC_URL + "/images/gallery/18.jpg", process.env.PUBLIC_URL + "/images/gallery/19.jpg", process.env.PUBLIC_URL + "/images/gallery/20.jpg",
+  process.env.PUBLIC_URL + "/images/gallery/21.jpg", process.env.PUBLIC_URL + "/images/gallery/22.jpg", process.env.PUBLIC_URL + "/images/gallery/23.jpg", process.env.PUBLIC_URL + "/images/gallery/24.jpg",
+  process.env.PUBLIC_URL + "/images/gallery/25.jpg", process.env.PUBLIC_URL + "/images/gallery/26.jpg", process.env.PUBLIC_URL + "/images/gallery/27.jpg", process.env.PUBLIC_URL + "/images/gallery/28.jpg",
+  process.env.PUBLIC_URL + "/images/gallery/29.jpg", process.env.PUBLIC_URL + "/images/gallery/30.jpg",
 ];
 
 const Gallery = () => {

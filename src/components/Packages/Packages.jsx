@@ -17,7 +17,7 @@ const Packages = () =>{
             price: "Rs. 5000/Person",
             days: "7",
             nights: "6",
-            image: "/images/packages/goa.jpg",
+            image: process.env.PUBLIC_URL + "/images/packages/goa.jpg",
         },
         {
             id: 'kedarnath',
@@ -25,7 +25,7 @@ const Packages = () =>{
             price: "Rs. 10,000/Person",
             days: "7",
             nights: "6",
-            image: "/images/packages/kedarnath.jpg",
+            image: process.env.PUBLIC_URL + "/images/packages/kedarnath.jpg",
         },
         {
             id: 'rameshwaram',
@@ -33,7 +33,7 @@ const Packages = () =>{
             price: "Rs. 10,000/Person",
             days: "7",
             nights: "6",
-            image: "/images/packages/rameshwaram.jpg",
+            image: process.env.PUBLIC_URL + "/images/packages/rameshwaram.jpg",
         },
         {
             id: 'rajasthan',
@@ -41,7 +41,7 @@ const Packages = () =>{
             price: "Rs. 10,000/Person",
             days: "7",
             nights: "6",
-            image: "/images/packages/rajasthan.jpg",
+            image: process.env.PUBLIC_URL + "/images/packages/rajasthan.jpg",
         },
         {
             id: 'mumbai',
@@ -49,7 +49,7 @@ const Packages = () =>{
             price: "Rs. 10,000/Person",
             days: "7",
             nights: "6",
-            image: "/images/packages/mumbai.jpg",
+            image: process.env.PUBLIC_URL + "/images/packages/mumbai.jpg",
         },
         {
             id: 'manali',
@@ -57,7 +57,7 @@ const Packages = () =>{
             price: "Rs. 10,000/Person",
             days: "7",
             nights: "6",
-            image: "/images/packages/manali.jpg",
+            image: process.env.PUBLIC_URL + "/images/packages/manali.jpg",
         },
         {
             id: 'delhi',
@@ -65,7 +65,7 @@ const Packages = () =>{
             price: "Rs. 10,000/Person",
             days: "7",
             nights: "6",
-            image: "/images/packages/delhi.jpg",
+            image: process.env.PUBLIC_URL + "/images/packages/delhi.jpg",
         },
         {
             id: 'varanasi',
@@ -73,7 +73,7 @@ const Packages = () =>{
             price: "Rs. 10,000/Person",
             days: "7",
             nights: "6",
-            image: "/images/packages/varanasi.jpg",
+            image: process.env.PUBLIC_URL + "/images/packages/varanasi.jpg",
         },
         {
             id: 'kolkata',
@@ -81,7 +81,7 @@ const Packages = () =>{
             price: "Rs. 10,000/Person",
             days: "7",
             nights: "6",
-            image: "/images/packages/kolkata.jpg",
+            image: process.env.PUBLIC_URL + "/images/packages/kolkata.jpg",
         },
         {
             id: 'lakshadweep',
@@ -89,7 +89,7 @@ const Packages = () =>{
             price: "Rs. 10,000/Person",
             days: "7",
             nights: "6",
-            image: "/images/packages/lakshadweep.jpg",
+            image: process.env.PUBLIC_URL + "/images/packages/lakshadweep.jpg",
         }
 ];
     return(
